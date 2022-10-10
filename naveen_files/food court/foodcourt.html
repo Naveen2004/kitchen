@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food court</title>
+  <link rel="stylesheet" href="food.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body cz-shortcut-listen="true">
+  <div class="navbar">
+    <div class="navbar-banner">
+      KFC's Kitchen
+    </div>
+
+    <div class="nav-cart">
+      <i class="fa fa-shopping-cart"></i>
+      <div class="cart-items">0</div>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="brand-banner">
+      <h3>KFC's Kitchen</h3>
+      <p>Have a break Eat Fresh..!</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <ul>
+      <li><a href="#" class="menu" data-title="Latest Products" data-id="latest">Latest</a></li>
+      <li><a href="#" class="menu" data-title="Favourite" data-id="fav">Favourite</a></li>
+      <li><a href="#" class="menu" data-title="Vegetarian" data-id="Veg">Veg</a></li>
+      <li><a href="#" class="menu" data-title="Non Vegetarian" data-id="Non-Veg">Non Veg</a></li>
+      <li><a href="#" class="menu" data-title="Juice" data-id="Juice">Juice</a></li>
+      <li><a href="#" class="menu" data-title="Cakes" data-id="Cake">Cakes</a></li>
+      <li><a href="#" class="menu" data-title="Sweets" data-id="Sweet">Sweets</a></li>
+      <li><a href="#" class="menu" data-title="Ice Cream" data-id="IceCream">Ice Cream</a></li>
+      <li><a href="#" class="menu" data-title="Pizza" data-id="Pizza">Pizza</a></li>
+      <li><a href="#" class="menu" data-title="Soups" data-id="Soup">Soup</a></li>
+    </ul>
+  </div>
+
+  <div class="products">
+    <h3 id="txtFoodType">Latest Products</h3>
+    <div class="products-container">
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/26.jpg" alt="Alfredo Pasta" class="product-img">
+                  </div>
+                    <h3>Alfredo Pasta</h3>
+                    <h4>LAKSHMI FOOD</h4>
+                    <h5><span>Veg</span> Rs.185</h5>
+                    <button class="btn-item" data-id="26">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="26"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/34.jpg" alt="Veg Nuggets" class="product-img">
+                  </div>
+                    <h3>Veg Nuggets</h3>
+                    <h4>JUICE MALL</h4>
+                    <h5><span>Veg</span> Rs.80</h5>
+                    <button class="btn-item" data-id="34">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="34"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/117.jpg" alt="Onion Uthappam" class="product-img">
+                  </div>
+                    <h3>Onion Uthappam</h3>
+                    <h4>Sri Saivihar</h4>
+                    <h5><span>Veg</span> Rs.75</h5>
+                    <button class="btn-item" data-id="117">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="117"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/130.jpg" alt="Veg Seekh Kebab" class="product-img">
+                  </div>
+                    <h3>Veg Seekh Kebab</h3>
+                    <h4>Tandoori Wala</h4>
+                    <h5><span>Veg</span> Rs.230</h5>
+                    <button class="btn-item" data-id="130">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="130"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/68.jpg" alt="Badam Halwa" class="product-img">
+                  </div>
+                    <h3>Badam Halwa</h3>
+                    <h4>Shri Gupta Sweets</h4>
+                    <h5><span>Sweet</span> Rs.120</h5>
+                    <button class="btn-item" data-id="68">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="68"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/78.jpg" alt="Badusa" class="product-img">
+                  </div>
+                    <h3>Badusa</h3>
+                    <h4>Shri Gupta Sweets</h4>
+                    <h5><span>Sweet</span> Rs.30</h5>
+                    <button class="btn-item" data-id="78">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="78"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/13.jpg" alt="Sweet corn Chicken Soup" class="product-img">
+                  </div>
+                    <h3>Sweet corn Chicken Soup</h3>
+                    <h4>LAKSHMI FOOD</h4>
+                    <h5><span>Soup</span> Rs.109</h5>
+                    <button class="btn-item" data-id="13">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="13"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/119.jpg" alt="Vegetable" class="product-img">
+                  </div>
+                    <h3>Vegetable</h3>
+                    <h4>Sri Saivihar</h4>
+                    <h5><span>Soup</span> Rs.60</h5>
+                    <button class="btn-item" data-id="119">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="119"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/136.jpg" alt="Chicken Hot and Sour Soup" class="product-img">
+                  </div>
+                    <h3>Chicken Hot and Sour Soup</h3>
+                    <h4>Tandoori Wala</h4>
+                    <h5><span>Soup</span> Rs.150</h5>
+                    <button class="btn-item" data-id="136">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="136"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/85.jpg" alt="Margherita" class="product-img">
+                  </div>
+                    <h3>Margherita</h3>
+                    <h4>Pizza Hut</h4>
+                    <h5><span>Pizza</span> Rs.149</h5>
+                    <button class="btn-item" data-id="85">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="85"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/91.jpg" alt="Chicken Sausage" class="product-img">
+                  </div>
+                    <h3>Chicken Sausage</h3>
+                    <h4>Pizza Hut</h4>
+                    <h5><span>Pizza</span> Rs.299</h5>
+                    <button class="btn-item" data-id="91">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="91"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/17.jpg" alt="Punjabi Chicken Gravy" class="product-img">
+                  </div>
+                    <h3>Punjabi Chicken Gravy</h3>
+                    <h4>LAKSHMI FOOD</h4>
+                    <h5><span>Non-Veg</span> Rs.255</h5>
+                    <button class="btn-item" data-id="17">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="17"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/102.jpg" alt="Kadai Fry" class="product-img">
+                  </div>
+                    <h3>Kadai Fry</h3>
+                    <h4>Pugal Ragu Bawa Tiffen Center</h4>
+                    <h5><span>Non-Veg</span> Rs.150</h5>
+                    <button class="btn-item" data-id="102">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="102"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/104.jpg" alt="Egg Roast" class="product-img">
+                  </div>
+                    <h3>Egg Roast</h3>
+                    <h4>Pugal Ragu Bawa Tiffen Center</h4>
+                    <h5><span>Non-Veg</span> Rs.65</h5>
+                    <button class="btn-item" data-id="104">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="104"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/143.jpg" alt="Chicken Manchurian Dry" class="product-img">
+                  </div>
+                    <h3>Chicken Manchurian Dry</h3>
+                    <h4>Tandoori Wala</h4>
+                    <h5><span>Non-Veg</span> Rs.250</h5>
+                    <button class="btn-item" data-id="143">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="143"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/39.jpg" alt="Cotton Candy Scoop" class="product-img">
+                  </div>
+                    <h3>Cotton Candy Scoop</h3>
+                    <h4>Cream &amp; Fudge</h4>
+                    <h5><span>IceCream</span> Rs.99</h5>
+                    <button class="btn-item" data-id="39">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="39"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/51.jpg" alt="Swiss Choco Brownie" class="product-img">
+                  </div>
+                    <h3>Swiss Choco Brownie</h3>
+                    <h4>Cream &amp; Fudge</h4>
+                    <h5><span>IceCream</span> Rs.169</h5>
+                    <button class="btn-item" data-id="51">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="51"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/52.jpg" alt="Fruit Paradise" class="product-img">
+                  </div>
+                    <h3>Fruit Paradise</h3>
+                    <h4>Cream &amp; Fudge</h4>
+                    <h5><span>IceCream</span> Rs.209</h5>
+                    <button class="btn-item" data-id="52">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="52"></button>
+              </div>
+
+       <div class="product">
+                  <div class="img-container">
+                      <img src="https://www.app.tutorjoes.in/img/food/65.jpg" alt="Apple Pie" class="product-img">
+                  </div>
+                    <h3>Apple Pie</h3>
+                    <h4>Shris Cake Zone</h4>
+                    <h5><span>Cake</span> Rs.189</h5>
+                    <button class="btn-item" data-id="65">
+                      <i class="fa fa-shopping-cart"></i>
+                      add to cart
+                    </button>
+                    <button class="btn-fav fa fa-heart " data-id="65"></button>
+              </div>
+       </div>
+
+    <div class="cart-overlay cart-overlay-close">
+      <div class="cart">
+        <span class="btn-close-cart"><i class="fa fa-window-close"></i></span>
+        <h2>Your Cart Products</h2>
+        <div class="cart-content">
+          <!-------------------Cart Item start -------------------------->
+
+          <!--<div class="cart-item">
+            <img src="./images/pro.jpg" alt="Product Name">
+            <div>
+              <h4>Product Name</h4>
+              <h5>Rs 985.00</h5>
+              <span class="remove-item">Remove</span>
+            </div>
+            <div>
+              <i class="fa fa-plus"></i>
+              <p class="item-amount">
+                1
+              </p>
+              <i class="fa fa-minus"></i>
+            </div>
+          </div>
+          ---->
+
+
+
+
+
+          <!-------------------Cart Item End -------------------------->
+        </div>
+
+        <div class="cart-footer">
+          <h3>Total Amount Rs: <span class="cart-total">0</span></h3>
+            <button class="btn">place order</button>
+          <button class="btn btn-clear-cart">clear cart</button>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Made With 💖 By  NAVEEN</p>
+    </div>
+	<script src="food.js"></script>
+
+
+</div>
+<div class="Last">
+  <h1>Recently Searched</h1>
+  <ul>
+    <li><a href="C:\Users\User\Documents\naveen_files\naveen web project\index.html">World's Largest Website</a></li>
+    <li><a href="C:\Users\User\Documents\naveen_files\naveen web project\TinDog Start Here\index.html">Tindog </a></li>
+    <li><a href="C:\Users\User\Documents\naveen_files\Drum Kit Completed\index.html">Drumkit Online</a></li>
+
+  </ul>
+</div>
+
+</div>
+</body>
+
+</body>
+</html>
